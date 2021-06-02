@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "iFM6OwnTGL/kvcp4gVwTYGwsaAzo6kPI4Jrh6v2XjH2HMZU+1yD5iB7OgbSY+TcLe8jCZKfC0teY8DPEhz0nZg==",
+  "success": true,
+  "projectFilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/CleanArchMvc.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/fabioveiga/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/fabioveiga/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/fabioveiga/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/fabioveiga/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
