@@ -1,9 +1,9 @@
-using System.Threading;
-using System.Threading.Tasks;
-using CleanArchMvc.Application.Products.Queries;
+﻿using CleanArchMvc.Application.Products.Queries;
 using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Domain.Interfaces;
 using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace CleanArchMvc.Application.Products.Handlers
 {
@@ -15,7 +15,8 @@ namespace CleanArchMvc.Application.Products.Handlers
             _productRepository = productRepository;
         }
 
-        public async Task<Product> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
+        public async Task<Product> Handle(GetProductByIdQuery request,
+             CancellationToken cancellationToken)
         {
             return await _productRepository.GetByIdAsync(request.Id);
         }

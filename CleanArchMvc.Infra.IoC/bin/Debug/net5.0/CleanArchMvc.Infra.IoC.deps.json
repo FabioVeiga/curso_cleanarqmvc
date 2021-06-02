@@ -12,10 +12,7 @@
           "CleanArchMvc.Application": "1.0.0",
           "CleanArchMvc.Domain": "1.0.0",
           "CleanArchMvc.Infra.Data": "1.0.0",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "5.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.4"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
         },
         "runtime": {
           "CleanArchMvc.Infra.IoC.dll": {}
@@ -215,11 +212,6 @@
             "assemblyVersion": "5.0.4.0",
             "fileVersion": "5.0.421.11803"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.4"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -1239,13 +1231,6 @@
       "sha512": "sha512-wFn6lYyezhTIWpEB85NYn0TmVs0GiTQBbgKxK4/BmeEXBoLdltOngosey1u9t1+c2xjxuis1V7fP3wcLVSf+jg==",
       "path": "microsoft.entityframeworkcore.sqlserver/5.0.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ldiZtmhBXJBvBHLUUglCL2n0RFoaXwR3fnvY0Tn0U70V4gafA2ny7vf1d/Gh4ai9qyj/wVJOj4RN8HAy4wjqTw==",
-      "path": "microsoft.entityframeworkcore.tools/5.0.4",
-      "hashPath": "microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",

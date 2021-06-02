@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/CleanArchMvc.Application.csproj": {}
+    "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {}
   },
   "projects": {
-    "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/CleanArchMvc.Application.csproj": {
+    "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/CleanArchMvc.Application.csproj",
+        "projectUniqueName": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
         "projectName": "CleanArchMvc.Application",
-        "projectPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/CleanArchMvc.Application.csproj",
+        "projectPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
         "packagesPath": "/Users/fabioveiga/.nuget/packages/",
-        "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.application/obj/",
+        "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"

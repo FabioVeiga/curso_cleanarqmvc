@@ -1,4 +1,4 @@
-using CleanArchMvc.Domain.Entities;
+﻿using CleanArchMvc.Domain.Entities;
 using MediatR;
 
 namespace CleanArchMvc.Application.Products.Commands

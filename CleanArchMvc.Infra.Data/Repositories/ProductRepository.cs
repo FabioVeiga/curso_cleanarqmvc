@@ -1,18 +1,18 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using CleanArchMvc.Domain.Entities;
+﻿using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
         private ApplicationDbContext _productContext;
-        public ProductRepository(ApplicationDbContext productContext)
+        public ProductRepository(ApplicationDbContext context)
         {
-            _productContext = productContext;
+            _productContext = context;
         }
 
         public async Task<Product> CreateAsync(Product product)
@@ -25,21 +25,15 @@ namespace CleanArchMvc.Infra.Data.Repositories
         public async Task<Product> GetByIdAsync(int? id)
         {
             //return await _productContext.Products.FindAsync(id);
-            return await _productContext
-            .Products
-            .Include(c => c.Category)
-            .SingleOrDefaultAsync(p => p.Id == id);
-
+                return await _productContext.Products.Include(c => c.Category)
+                   .SingleOrDefaultAsync(p => p.Id == id);
         }
 
         //public async Task<Product> GetProductCategoryAsync(int? id)
         //{
-        //    //usando Include usa o "carregamento adiantado" para trazer os dados provenientes de outro modelo
-        //    //chamdo tb de eager logging
-        //    return await _productContext
-        //    .Products
-        //    .Include(c => c.Category)
-        //    .SingleOrDefaultAsync(p => p.Id == id);
+        //    //eager loading
+        //    return await _productContext.Products.Include(c => c.Category)
+        //        .SingleOrDefaultAsync(p => p.Id == id);
         //}
 
         public async Task<IEnumerable<Product>> GetProductsAsync()

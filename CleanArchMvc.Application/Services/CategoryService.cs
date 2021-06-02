@@ -1,10 +1,10 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Domain.Interfaces;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CleanArchMvc.Application.Services
 {
@@ -18,39 +18,34 @@ namespace CleanArchMvc.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<CategoryDTO>> GetCategoriesAsync()
+        public async Task<IEnumerable<CategoryDTO>> GetCategories()
         {
-            var categoriesEntity = await _categoryRepository.GetCategoriesAsync();
-            //irá mapear a entidade e retornar com as propriedades da DTO
-            //O auto mapper realiza esta operação
+            var categoriesEntity = await _categoryRepository.GetCategories();
             return _mapper.Map<IEnumerable<CategoryDTO>>(categoriesEntity);
         }
 
-        public async Task<CategoryDTO> GetByIDAsync(int? id)
+        public async Task<CategoryDTO> GetById(int? id)
         {
-            var categoriesEntity = await _categoryRepository.GetByIdAsync(id);
-            return _mapper.Map<CategoryDTO>(categoriesEntity);
+            var categoryEntity = await _categoryRepository.GetById(id);
+            return _mapper.Map<CategoryDTO>(categoryEntity);
         }
 
-        public async Task AddAsync(CategoryDTO categoryDto)
+        public async Task Add(CategoryDTO categoryDto)
         {
-            //deve converter a DTO para tipo Entity
-            var categoriesEntity = _mapper.Map<Category>(categoryDto);
-            //passa por paramentro o modelo convertido
-            await _categoryRepository.CreateAsync(categoriesEntity);
+            var categoryEntity = _mapper.Map<Category>(categoryDto);
+            await _categoryRepository.Create(categoryEntity);
         }
 
-        public async Task UpdateAsync(CategoryDTO categoryDto)
+        public async Task Update(CategoryDTO categoryDto)
         {
-            var categoriesEntity = _mapper.Map<Category>(categoryDto);
-            await _categoryRepository.UpdateAsync(categoriesEntity);
+            var categoryEntity = _mapper.Map<Category>(categoryDto);
+            await _categoryRepository.Update(categoryEntity);
         }
 
-        public async Task RemoveAsync(int? id)
+        public async Task Remove(int? id)
         {
-            //result, já converte para a DTO
-            var categoriesEntity = _categoryRepository.GetByIdAsync(id).Result;
-            await _categoryRepository.RemoveAsync(categoriesEntity);
+            var categoryEntity = _categoryRepository.GetById(id).Result;
+            await _categoryRepository.Remove(categoryEntity);
         }
     }
 }

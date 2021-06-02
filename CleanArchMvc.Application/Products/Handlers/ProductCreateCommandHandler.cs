@@ -1,10 +1,10 @@
+﻿using CleanArchMvc.Application.Products.Commands;
+using CleanArchMvc.Domain.Entities;
+using CleanArchMvc.Domain.Interfaces;
+using MediatR;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CleanArchMvc.Domain.Entities;
-using CleanArchMvc.Application.Products.Commands;
-using MediatR;
-using CleanArchMvc.Domain.Interfaces;
 
 namespace CleanArchMvc.Application.Products.Handlers
 {
@@ -15,17 +15,18 @@ namespace CleanArchMvc.Application.Products.Handlers
         {
             _productRepository = productRepository;
         }
-        public async Task<Product> Handle(ProductCreateCommand request, CancellationToken cancellationToken)
+        public async Task<Product> Handle(ProductCreateCommand request, 
+            CancellationToken cancellationToken)
         {
-            //cria um instacia do product e passa o que esta vindo da requisição para o obj
-            var product = new Product(request.Name, request.Description, request.Price, request.Stock, request.Image);
+            var product = new Product(request.Name, request.Description, request.Price,
+                              request.Stock, request.Image);
 
-            //verifica se o obj é null e devolve exception se for
-            if(product == null){
-                throw new ApplicationException($"Error creating entity!");
+            if (product == null)
+            {
+                throw new ApplicationException($"Error creating entity.");
             }
-            else{
-                //persiste no banco
+            else
+            {
                 product.CategoryId = request.CategoryId;
                 return await _productRepository.CreateAsync(product);
             }

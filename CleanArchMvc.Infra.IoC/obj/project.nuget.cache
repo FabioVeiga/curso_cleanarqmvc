@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XhzriW2UxQbOy0ByxgTa9ABwaxoPWS/uHzgcByqugmOquHHUflKgXHYuWzoKWQZsJ/gJV1b2XpgNP2LmqVgN/w==",
+  "dgSpecHash": "YMQUf5A8zKaB5YHVi13nKHfe93g9ovpmEcJCz5Ou58Epw6HILAOAvo+xWZIPoV/RRDdBV1kN18UYayrKLjiGwA==",
   "success": true,
   "projectFilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Infra.IoC/CleanArchMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,6 @@
     "/Users/fabioveiga/.nuget/packages/microsoft.entityframeworkcore.design/5.0.4/microsoft.entityframeworkcore.design.5.0.4.nupkg.sha512",
     "/Users/fabioveiga/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.4/microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
     "/Users/fabioveiga/.nuget/packages/microsoft.entityframeworkcore.sqlserver/5.0.4/microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512",
-    "/Users/fabioveiga/.nuget/packages/microsoft.entityframeworkcore.tools/5.0.4/microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
     "/Users/fabioveiga/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "/Users/fabioveiga/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "/Users/fabioveiga/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

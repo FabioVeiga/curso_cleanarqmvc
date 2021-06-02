@@ -1,8 +1,8 @@
-using System;
-using System.Threading.Tasks;
-using CleanArchMvc.Application.DTOs;
+﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
@@ -15,8 +15,9 @@ namespace CleanArchMvc.WebUI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index(){
-            var categories = await _categoryService.GetCategoriesAsync();
+        public async Task<IActionResult> Index()
+        {
+            var categories = await _categoryService.GetCategories();
             return View(categories);
         }
 
@@ -31,7 +32,7 @@ namespace CleanArchMvc.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _categoryService.AddAsync(category);
+                await _categoryService.Add(category);
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -41,7 +42,7 @@ namespace CleanArchMvc.WebUI.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
-            var categoryDto = await _categoryService.GetByIDAsync(id);
+            var categoryDto = await _categoryService.GetById(id);
             if (categoryDto == null) return NotFound();
             return View(categoryDto);
         }
@@ -53,7 +54,7 @@ namespace CleanArchMvc.WebUI.Controllers
             {
                 try
                 {
-                    await _categoryService.UpdateAsync(categoryDto);
+                    await _categoryService.Update(categoryDto);
                 }
                 catch (Exception)
                 {
@@ -70,7 +71,7 @@ namespace CleanArchMvc.WebUI.Controllers
             if (id == null)
                 return NotFound();
 
-            var categoryDto = await _categoryService.GetByIDAsync(id);
+            var categoryDto = await _categoryService.GetById(id);
 
             if (categoryDto == null) return NotFound();
 
@@ -80,7 +81,7 @@ namespace CleanArchMvc.WebUI.Controllers
         [HttpPost(), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            await _categoryService.RemoveAsync(id);
+            await _categoryService.Remove(id);
             return RedirectToAction("Index");
         }
 
@@ -89,7 +90,7 @@ namespace CleanArchMvc.WebUI.Controllers
             if (id == null)
                 return NotFound();
 
-            var categoryDto = await _categoryService.GetByIDAsync(id);
+            var categoryDto = await _categoryService.GetById(id);
 
             if (categoryDto == null)
                 return NotFound();
