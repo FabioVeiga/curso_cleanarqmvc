@@ -104,9 +104,11 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain.Tests/obj/Debug/net5.0/CleanA
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain.Tests/obj/Debug/net5.0/ref/CleanArchMvc.Domain.Tests.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain.Tests/obj/Debug/net5.0/CleanArchMvc.Domain.Tests.pdb
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain.Tests/obj/Debug/net5.0/CleanArchMvc.Domain.Tests.genruntimeconfig.cache
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/CoverletSourceRootsMapping
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/xunit.runner.reporters.netcoreapp10.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/xunit.runner.utility.netcoreapp10.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/CleanArchMvc.Domain.Tests.deps.json
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/CleanArchMvc.Domain.Tests.runtimeconfig.json
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/CleanArchMvc.Domain.Tests.runtimeconfig.dev.json
@@ -116,7 +118,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain.Tests/obj/Debug/net5.0/CleanA
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/FluentAssertions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain.Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll
