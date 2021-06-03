@@ -15659,6 +15659,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/Views/Shared/_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/Views/Categories/Delete.cshtml",
       "TargetPath": "Views\\Categories\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15679,8 +15684,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/Views/Account/Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/Views/Products/Index.cshtml",
       "TargetPath": "Views\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/Views/Account/Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {

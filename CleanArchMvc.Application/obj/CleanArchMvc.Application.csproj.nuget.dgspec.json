@@ -14,7 +14,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -80,7 +80,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

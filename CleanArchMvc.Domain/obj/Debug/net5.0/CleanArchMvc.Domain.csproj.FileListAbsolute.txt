@@ -14,7 +14,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/bin/Debug/net5.0/CleanArchMvc.Domain.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/bin/Debug/net5.0/ref/CleanArchMvc.Domain.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/bin/Debug/net5.0/CleanArchMvc.Domain.pdb
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.csprojAssemblyReference.cache
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.AssemblyInfoInputs.cache
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/ref/CleanArchMvc.Domain.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.pdb
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/Debug/net5.0/CleanArchMvc.Domain.csprojAssemblyReference.cache

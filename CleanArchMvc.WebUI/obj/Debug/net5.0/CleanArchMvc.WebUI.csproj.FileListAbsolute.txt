@@ -23,8 +23,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsof
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cors.dll
-C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -109,8 +107,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsof
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Http.dll
-C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Core.dll
-C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Stores.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.dll
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -406,6 +402,14 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Products/Edit.cshtml.g.cs
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Products/Delete.cshtml.g.cs
 C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Products/Details.cshtml.g.cs
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs
+C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/appsettings.Development.json
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/appsettings.json
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/CleanArchMvc.WebUI.deps.json
@@ -430,8 +434,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -516,8 +518,6 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Http.dll
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Localization.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -702,6 +702,9 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Humanizer.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/MediatR.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -716,6 +719,8 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.Identity.Client.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
@@ -789,6 +794,8 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/CleanArchMvc.WebUI.TagHelpers.input.cache
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/CleanArchMvc.WebUI.TagHelpers.output.cache
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/CleanArchMvc.WebUI.RazorCoreGenerate.cache
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Account/Register.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Categories/Create.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Categories/Delete.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Categories/Details.cshtml.g.cs
@@ -802,6 +809,7 @@ C:/curso_cleanarq/CleanArchMvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/P
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Products/Edit.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Products/Index.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs

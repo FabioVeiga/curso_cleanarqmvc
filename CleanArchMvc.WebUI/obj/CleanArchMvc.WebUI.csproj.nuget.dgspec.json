@@ -14,7 +14,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -80,7 +80,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -132,7 +132,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -160,21 +160,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "None",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -206,7 +214,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.Infra.IoC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -278,7 +286,7 @@
         "outputPath": "/Users/fabioveiga/Projects/curso_cleanarqmvc/CleanArchMvc.WebUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fabioveiga/.nuget/NuGet/NuGet.Config"
+          "/Users/fabioveiga/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -308,7 +316,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
